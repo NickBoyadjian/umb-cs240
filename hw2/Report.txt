@@ -1,0 +1,8 @@
+Nick Boyadjian
+Homework 2 Report
+
+With this assignment, my initial thought when I read it was that I would need to read the file character by character. Whenever a non numerical value was read, I would have to increment the number of words of that length. So the program starts with an integer array of length 27 and everytime a word is read with 5 characters for example, the fifth element in that array would increment. After that it was just a matter of formatting the output and printing the correct amount of asterisks. 
+
+The asterisk part was probably the most tricky. My approach was to write a function that calculates the amount of asterisks needed and then write a loop that prints the correct amount of asterisks. I have a feeling there is a way to accomplish this in printf without using a loop but I havent figured it out yet.
+
+I think the biggest thing I learned from this assignment was working with pointers and functions. 

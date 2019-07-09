@@ -1,0 +1,17 @@
+Nick Boyadjian 
+Homework 4
+
+I found the first part of this homework to be pretty straight forward. The
+functions were all just one line expressions. The only one that took me a minute
+was the full adder carry but i solved it using two "||" operators. The last part
+was the trickiest. Going through the steps of the myadd function werent too bad
+as it was all layed out in the rubric but getting and setting bits in an
+unsigned integer were a little bit more tricky. 
+Once I learned how to do it I was able to solve the problem but it took a bit of
+research to get there. What I had to do was left shift the value of 1, i times
+and then do a bitwise and operation, and the right shift the value back i times.
+I put that into its own function and then just called it from within my for
+loop. This kept the code clean and easy to read / follow.
+
+For my sources, this page was the biggest help.
+https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/

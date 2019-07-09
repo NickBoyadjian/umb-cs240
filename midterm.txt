@@ -1,0 +1,32 @@
+1) Study enums, pointers, modulus
+	------------------------------
+	enum {a, b=7, c}
+	printf("%d %d")
+		-> answer: 0 8
+		 -> starts at 0, since b is set to 7, c goes up by one
+	------------------------------
+
+	
+	int i = 1;
+	while (i++ <= 5);
+	printf("%d", i++);
+		-> answer: 7
+
+--------------------------------------------------------------------------
+2) ones and twos compliment
+	-> ones compliment: flip the bits
+	-> twos compliment: add one to the ones compliment
+		-> in a four bit pattern the left most bit is the sign: 1 == -, 0 == +
+	=> 4 bits == nibble 
+
+--------------------------------------------------------------------------
+
+3) number conversions
+
+4) bitwise operations
+	-> shifts, 
+		=> one left shift, the number gets multiplied by 2
+		=> one right shift, the number gets divided by 2
+
+5) recurssion 
+	-> towers of hanoi

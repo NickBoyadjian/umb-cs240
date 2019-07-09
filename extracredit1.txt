@@ -1,0 +1,7 @@
+0, 1, 2
+
+a) write first ten numbers
+
+b) define compliments
+
+c) digitwise operations (bit shifts)
