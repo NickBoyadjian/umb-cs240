@@ -1,0 +1,37 @@
+REPORT
+Nick Boyadjian
+
+Counting sort and quick sort seemed to have a big difference in their time to
+sort an array. When I increased the value of m, the countsourt algorithm only
+went up by a few milliseconds however quicksort had a bigger difference. 
+
+m == 1000, n == 1048576
+	quicksort took 94 msec
+	countsort took 4 msec
+
+m == 64, n == 4194304
+	quicksort took 394
+	countsort took 18 
+
+as the size of n increases, countsort outperforms quicksort more and more.
+I wasn't able to find a combination where quicksort was faster than countsort.
+
+I learned two major things from, this assignment, the first being how to
+implement countsort, and the second being more based on performance of different
+algorithms. The implementation of countsort was pretty straight forward and easy
+to understand. You have two arrays, the data, and the count. You loop through
+the data array and increment the value in count at the position of whatever
+value data is. After this you are left with a count array that holds the amount
+of times each value occurs. From here you just need to loop the length of the
+data array and add the correct amount values. I did this by decrementing the
+value in the count array until it hit zero, and then moving to the next value.
+
+As for the performance, I found this one interesting. In all the cases I tried,
+countsort outperformed quicksort. As the values went higher, the difference in
+performance grew greater. If I went the other way, the values would both
+eventually hit 0, however countsort would get there first.
+
+
+
+
+
